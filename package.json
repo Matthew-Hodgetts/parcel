@@ -1,0 +1,22 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.23.1"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "lint": "eslint ./src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
